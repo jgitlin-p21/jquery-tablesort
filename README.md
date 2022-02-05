@@ -49,7 +49,17 @@ As such, I plan to review the folowing forks which areahead of `kylefox/jquery-t
 * KarlPurk/jquery-tablesort
   * "Switch to native API for querying dataset"
   * "Support table headers that span multiple columns"
-  * Small diff with possible large impact
+  * Merging breaks sorting with:
+    ```
+	Uncaught Error: Syntax error, unrecognized expression: :nth-child
+    at Function.ga.error (jquery-3.1.1.min.js:2:13470)
+    at Object.CHILD (jquery-3.1.1.min.js:2:14421)
+    at ga.tokenize (jquery-3.1.1.min.js:2:19349)
+    at Function.ga [as find] (jquery-3.1.1.min.js:2:7102)
+    at r.fn.init.find (jquery-3.1.1.min.js:2:24958)
+    at $.tablesort.sort (jquery.tablesort.js:36:18)
+	```
+
 * Paaskehare/jquery-tablesort
   * 1 commit ahead, 48 commits behind kylefox:master.
     * "Update based on semantic-ui's version"
