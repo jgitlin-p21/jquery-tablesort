@@ -1,15 +1,30 @@
 A tiny & dead-simple jQuery plugin for sortable tables. Here's a basic [demo](http://dl.dropbox.com/u/780754/tablesort/index.html).
 
-Maintainers Wanted
+Fork from  kylefox/jquery-tablesort
 ---
 
-![](https://img.shields.io/badge/maintainers-wanted-red.svg)
+**2022-02-04:** Looking to use a tablesort plugin for Fomantic, I saw that [Fomantic's Table docs](https://fomantic-ui.com/collections/table.html)
+reccomendd that I use [kylefox's tablesort plugin](https://github.com/kylefox/jquery-tablesort) however that page says: 
 
-I don't use this library much anymore and don't have time to maintain it solo.
+> Maintainers Wanted
+>
+> I don't use this library much anymore and don't have time to maintain it solo.
+>
+> If you are interested in helping me maintain this library, please let me know! [**Read more here &raquo;**](https://github.com/kylefox/jquery-tablesort/issues/32)
+> 
+> Your help would be greatly appreciated!
 
-If you are interested in helping me maintain this library, please let me know! [**Read more here &raquo;**](https://github.com/kylefox/jquery-tablesort/issues/32)
+As such, I plan to review the folowing forks which areahead of `kylefox/jquery-tablesort` and collect whatever commits aeem to be useful.
 
-Your help would be greatly appreciated!
+* alekssamos/jquery-tablesort
+* getintent/jquery-tablesort
+* huangnie/jquery-tablesort
+* jclgoodwin/jquery-tablesort
+* EventRebels/jquery-tablesort
+* joshstrange/jquery-tablesort
+* kalebdf/jquery-tablesort
+* KarlPurk/jquery-tablesort
+* Paaskehare/jquery-tablesort
 
 Install
 ---
