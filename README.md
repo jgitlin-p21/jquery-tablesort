@@ -17,14 +17,42 @@ reccomendd that I use [kylefox's tablesort plugin](https://github.com/kylefox/jq
 As such, I plan to review the folowing forks which areahead of `kylefox/jquery-tablesort` and collect whatever commits aeem to be useful.
 
 * alekssamos/jquery-tablesort
+  * 10 commits ahead of kylefox:master
+  * Accessibility improvements ([ARIA](https://www.w3.org/TR/wai-aria/): `aria-busy`, `aria-sort` etc)
+  * keyboard sorting
 * getintent/jquery-tablesort
+  * 8 commits ahead, 24 commits behind kylefox:master.
+  * added example
+  * updated bower
+  * fix uppercase sort
+  * Some changes to possible handle cells with `colspan` attributes?
 * huangnie/jquery-tablesort
+  * "update envet:start callback tricker time, get a better ui display when soring need long time"
 * jclgoodwin/jquery-tablesort
+  * "Fix kylefox#30 (default sort on page load ignores direction)"
 * EventRebels/jquery-tablesort
+  * README update
 * joshstrange/jquery-tablesort
+  * 1 commit ahead, 63 commits behind kylefox:master.
+  * Fix for when the sort-value is 0 or 0.00 or anything that is "== false"
+    * This little change caused me about an hour of debugging before I
+      finally realized that my "0" values were not getting sorted correctly
+      because it was seeing "0" and "0.00" as false. Hope this helps someone
+      else!
 * kalebdf/jquery-tablesort
+  * This branch is 5 commits ahead, 48 commits behind kylefox:master.
+    * "Ability to custom select specifc th columns"
+	* "Ability to sort numbers automatically"
+	* "Add ignore field"
+	* "Number regex was too strict didn't account for strings"
+	* "Lowercase the TextValue for comparison"
 * KarlPurk/jquery-tablesort
+  * "Switch to native API for querying dataset"
+  * "Support table headers that span multiple columns"
+  * Small diff with possible large impact
 * Paaskehare/jquery-tablesort
+  * 1 commit ahead, 48 commits behind kylefox:master.
+    * "Update based on semantic-ui's version"
 
 Install
 ---
